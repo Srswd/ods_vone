@@ -1,0 +1,34 @@
+.marquee{
+  background-color:rgb(3, 3, 18) ;
+  padding: 30px;
+  margin-bottom: 30px;
+ }
+
+
+ .postcard {
+  background-color: rgb(3, 54, 79);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px; /* Add spacing between postcards */
+}
+
+/* Style for the images (you can customize this as needed) */
+.image {
+  padding: 5px;
+  background-color:#01342a;
+  width: 400px; /* Adjust the image width as needed */
+  height: 350px; /* Maintain the aspect ratio */
+}
+
+/* Style for the text below the images */
+.postcard p {
+  padding-bottom: 10px;
+  margin-top: 10px; /* Add space between image and text */
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(247, 247, 247);
+}
+
+ 

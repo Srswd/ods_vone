@@ -1,0 +1,85 @@
+.main{
+    background-color: white;
+}
+.container{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-color: white;
+    
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 20px;
+    float: left;
+    
+}
+.button{    
+    background-color: rgb(39, 48, 213);
+    color: white;
+    width: 125px;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 17px 20px;
+    cursor: pointer;
+    margin: 0px;
+    border: 0px;
+}
+.button:hover{
+    background-color: rgba(40, 10, 160, 0.2);
+    transition: all 0.21s ease-out;
+    
+  }
+.title{
+    font-size: 52px;
+    background: linear-gradient(to bottom,white,rgb(67, 67, 239));
+    -webkit-background-clip :text;
+    -webkit-text-fill-color:transparent;
+}
+.disc{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.751);
+}
+.hero{
+    width: 480px;
+    height: 370px;
+}
+.ctitle{
+    margin-top: 50px;
+    display: flex;      
+    padding-left: 20px;
+    color:black;   
+    font-size: 35px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+.cdisc{
+    display: flex;
+    position: relative;    
+    padding-left: 20px;
+    color: black;    
+    padding-top: 0px;
+    background-color: white;
+}
+.swiper{
+    padding: 20px;
+    display: flex;
+    position: relative;    
+    background-color: white;    
+    justify-content: center;
+    align-items: center;
+}
