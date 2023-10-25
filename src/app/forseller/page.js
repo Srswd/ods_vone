@@ -7,10 +7,10 @@ import Marqueee from "../marquee/marquee"
 function page() {
   return (
     <div>
-      <h1 className={styles.ctitle}>Category1</h1>
+      <h1 className={styles.ctitle}>Most Booked Service</h1>
        <div className={styles.swiper}>
     <Swipermain />
-    </div><h1 className={styles.ctitle}>Category2</h1>
+    </div><h1 className={styles.ctitle}>Most Booked Service</h1>
     
     <Marqueee/>
     </div>

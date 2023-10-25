@@ -6,7 +6,8 @@
 
 
  .postcard {
-  background-color: rgb(3, 54, 79);
+  border-radius: 15px;
+  background-color: rgb(240, 244, 246);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,8 +16,9 @@
 
 /* Style for the images (you can customize this as needed) */
 .image {
-  padding: 5px;
-  background-color:#01342a;
+  border-radius: 15px;
+  padding: 20px;
+  background-color:#f5f7f7;
   width: 400px; /* Adjust the image width as needed */
   height: 350px; /* Maintain the aspect ratio */
 }
@@ -28,7 +30,8 @@
   text-align: center;
   font-weight: bold;
   font-size: 14px;
-  color: rgb(247, 247, 247);
+  color: black;
+  font-family:sans-serif;
 }
 
  

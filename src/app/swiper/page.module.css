@@ -50,9 +50,7 @@
   }
 .title{
     font-size: 25px;
-    background: linear-gradient(to bottom,rgb(251, 238, 238),#ebe1e1d4);
-    -webkit-background-clip :text;
-    -webkit-text-fill-color:transparent;
+    color: white;
 }
 .disc{
     margin-top: 10px;

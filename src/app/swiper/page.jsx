@@ -11,17 +11,22 @@ import sw6 from "../../../public/sw6.jpg"
 import styles from "./page.module.css"
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import { Navigation, Autoplay, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 
 export default function Swipermain(){
   return (
-    <Swiper    
+    <Swiper 
+    loop={true}   
+    autoplay={{
+      delay: 4500,
+      disableOnInteraction: false,
+    }}
     cssMode={true}
     navigation={true}
     mousewheel={true}
     keyboard={true}
-    modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+    modules={[Autoplay, Navigation, Pagination, Mousewheel, Keyboard]}
     className="mySwiper"  
       spaceBetween={10}
       slidesPerView={2}
