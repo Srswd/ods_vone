@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: rgb(190, 196, 207);
     padding-top: 10px;
   
 }
@@ -12,13 +12,25 @@
     margin-right: 50px;
     display: flex;
     gap: 30px;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+
 }
 .social{
+    margin-top: 0px;
+    padding-top: 0px;
+    flex-direction: column;
     color: black;
-    text-decoration: none;
+    text-decoration: none; 
+    padding: 15px;  
+
 }
 .copy{
     font-weight: 500;
     margin-left: 20px;
     color: black;
+}
+.sociallinks{
+  margin-bottom: 0px;
 }

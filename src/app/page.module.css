@@ -62,8 +62,8 @@
 .apphero{
     width:1000px;
     height: 600px;
-    position: relative;
-}
+   
+   }
 .downloadheader{
     display: flex;
     justify-content: center;
@@ -85,13 +85,27 @@
 .appitem{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex: 1;
     flex-direction: column;
     margin-left: 30px;
     position: relative;
 }
 .appfeatures{
+    font-size: 20px;
+    color: white;
     position: absolute;
-    top: 10%;
+    top: 210px;
+    left: 250px;
     justify-content: center;
+    padding-bottom: 50px;
+}
+
+.appfeaturesli{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 150px;
+    font-size: 30px;
+  
 }

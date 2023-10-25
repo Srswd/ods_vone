@@ -29,11 +29,21 @@ export default function Home() {
     </div>
     </div>
     <h1 className={styles.downloadheader}>DOWNLOAD OUR APP</h1>
-    <div className={styles.container}>      
+    <div className={styles.container}> 
+       
       <div className={styles.appitem}>
+        <div className={styles.appfeatures}>
+        <h1 >App Features</h1></div>
+        <div className={styles.appfeaturesli}><ul>
+          <li>Neque porro quisquam est </li>
+          <li>Neque porro quisquam est </li>
+          <li>Neque porro quisquam est </li>
+          <li>Neque porro quisquam est </li>
+          <li>Neque porro quisquam est </li>
+        </ul></div>
       <Image src={Appbanner} alt="herobanner"className={styles.apphero}/>
-      <h1 className="appfeatures">fklsdakf</h1>
-    </div>
+      
+   </div>
       <div className={styles.item}>
       <h1 className={styles.apptitle}>DOWNLOAD IT TODAY ON</h1>
       <div className={styles.appitem}>
